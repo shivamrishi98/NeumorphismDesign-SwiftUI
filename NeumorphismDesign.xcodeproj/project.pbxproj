@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9621139424C0987F0051A90B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621139324C0987F0051A90B /* ImagePicker.swift */; };
 		96EB025D24C0326700FD4DA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EB025C24C0326700FD4DA8 /* AppDelegate.swift */; };
 		96EB025F24C0326800FD4DA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EB025E24C0326800FD4DA8 /* SceneDelegate.swift */; };
 		96EB026124C0326800FD4DA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EB026024C0326800FD4DA8 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9621139324C0987F0051A90B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		96EB025924C0326700FD4DA8 /* NeumorphismDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeumorphismDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EB025C24C0326700FD4DA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96EB025E24C0326800FD4DA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				96EB026724C0326900FD4DA8 /* LaunchScreen.storyboard */,
 				96EB026A24C0326900FD4DA8 /* Info.plist */,
 				96EB026424C0326900FD4DA8 /* Preview Content */,
+				9621139324C0987F0051A90B /* ImagePicker.swift */,
 			);
 			path = NeumorphismDesign;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96EB025D24C0326700FD4DA8 /* AppDelegate.swift in Sources */,
+				9621139424C0987F0051A90B /* ImagePicker.swift in Sources */,
 				96EB025F24C0326800FD4DA8 /* SceneDelegate.swift in Sources */,
 				96EB026124C0326800FD4DA8 /* ContentView.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				DEVELOPMENT_TEAM = NBL2DFM5E9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NeumorphismDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				DEVELOPMENT_TEAM = NBL2DFM5E9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NeumorphismDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
